@@ -11,6 +11,14 @@ any(item in my_dict for item in values_to_check)
 Spelling Corrector拼写纠正库
 http://norvig.com/spell-correct.html
 
+#安装无法下载的库
+ 1. 安装wheel，命令行运行：
+   pip install wheel
+   2.在这里下载对应的.whl文件，注意别改文件名！ http://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml
+   3. 进入.whl所在的文件夹，执行命令即可完成安装
+   pip install 带后缀的完整文件名
+
+
 
 
 1）python运行时服务
