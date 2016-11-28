@@ -1,2 +1,2 @@
 # python_hint
-collection python hint &amp; skill
+collection python hint &amp; skill & resouce
