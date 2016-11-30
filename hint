@@ -18,5 +18,8 @@ http://norvig.com/spell-correct.html
    3. 进入.whl所在的文件夹，执行命令即可完成安装
    pip install 带后缀的完整文件名
 
-
-
+#使python2 默认str为unicode
+#python3初始默认为unicode
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
