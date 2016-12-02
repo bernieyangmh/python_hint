@@ -23,3 +23,7 @@ http://norvig.com/spell-correct.html
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
+
+
+#记录执行x=2语句所运行的时间
+t2 = timeit.Timer('x=2')
