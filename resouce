@@ -195,3 +195,19 @@ http://www.wklken.me/posts/2013/08/20/python-extra-itertools.html
 * json，json模块被用类序列化或饭序列化Javascript object notation（JSON）对象。
 
 * xml,xml包提供了各种处理xml的方法。
+
+
+13) 性能分析
+
+*profilehooks 装饰器方式输出分析
+
+*memory_profiler 内存监控
+
+*cProfile 性能分析
+
+*timeit  执行计时
+
+*line_profiler   每行的执行信息
+ 
+
+
