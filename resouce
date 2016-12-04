@@ -208,6 +208,8 @@ http://www.wklken.me/posts/2013/08/20/python-extra-itertools.html
 *timeit  执行计时
 
 *line_profiler   每行的执行信息
+
+*psutil 监控操作系统及进程
  
 
 
