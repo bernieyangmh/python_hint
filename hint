@@ -27,3 +27,10 @@ sys.setdefaultencoding('utf8')
 
 #记录执行x=2语句所运行的时间
 t2 = timeit.Timer('x=2')
+
+#2和3 base64编码与解码
+2. encodedStr=base64.urlsafe_b64encode('hello world') 
+   decodedStr=base64.urlsafe_b64decode(encodedStr) 
+3. encodedStr=base64.urlsafe_b64encode('hello world'.encode('utf-8')).decode('utf-8') 
+   decodedStr=base64.urlsafe_b64decode(encodedStr.encode('utf-8')).decode('utf-8') 
+   
